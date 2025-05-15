@@ -18,12 +18,12 @@ Approaches or solutions that have been tried before on similar projects.
   - **Objective**:To improve the reliability of container freight rate forecasts by incorporating major disruptive events using a mixed-method approach.
   - **Methods**: Extracted 471 events from Lloyds List (2010–2020), categorized them into six types using ML and NLP, and integrated them into a Prophet time series model across six container routes.
   - **Outcomes**: Determined six important factors in container shipping such as congestion, peak demand, policy, price up, overcapacity, and coronavirus.
-  - **Relation to the Project**:
+  - **Relation to the Project**: This study informs the identification of key predictive features if I want to consider external shocks.
 
-- **Source 3**: [Title of Source 3]
+- **Source 3**: [Analysis of structural changes in container shipping]
 
-  - **[Link]()**
-  - **Objective**:
-  - **Methods**:
-  - **Outcomes**:
-  - **Relation to the Project**:
+  - **[Link](https://www.researchgate.net/publication/272389395_Analysis_of_structural_changes_in_container_shipping)**
+  - **Objective**: To analyze long-run interrelationships among newbuilding prices, charter rates, and second-hand ship prices in the container market
+  - **Methods**: Applied Johansen’s Vector Autoregression Model to test for cointegration, followed by Bai–Perron’s multiple structural change test to identify regime shifts and coefficient changes.
+  - **Outcomes**: Found structural breaks in the relationships between the variables; revealed market-specific dominance patterns: charter rates lead in rising markets, newbuilding prices in falling markets, and second-hand prices in stable conditions.
+  - **Relation to the Project**:This study underscores the importance of accounting for structural changes and regime-dependent dynamics when modeling charter rate behavior, offering insight into how different price indicators interact over time—an essential consideration for feature selection.
